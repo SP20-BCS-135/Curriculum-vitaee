@@ -39,11 +39,11 @@ section:-moz-only-whitespace {
 body {
   font-size: 0.95em;
   margin: 0 auto;
-  -ms-text-size-adjust: 100%;
+  /* -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; */
   text-rendering: optimizeLegibility;
   text-decoration-skip: ink;
   hyphens: auto;
@@ -60,7 +60,6 @@ body {
   font-size: 105%;
 }
 
-/* Misc */
 
 img {
   max-width: 100%;
